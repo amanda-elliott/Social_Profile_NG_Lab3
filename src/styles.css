@@ -1,1 +1,11 @@
-/* You can add global styles to this file, and also import other style files */
+html {
+    font-family: 'Work Sans', sans-serif;
+    background-color: #eee;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

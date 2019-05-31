@@ -1,0 +1,14 @@
+<body>
+  <section>
+    <div class="imageDiv">
+      <img src="../../assets/Picture1.png" alt="">
+    </div>
+
+    <div class="infoDiv">
+      <p class="p1">{{ profile.name }}</p>
+      <p class="p2">{{ profile.contact }}</p>
+      <p class="p3">{{ profile.bio }}</p>
+      <button [routerLink]="['/edit']" routerLinkActive="active">Edit</button>
+    </div>
+  </section>
+</body>
